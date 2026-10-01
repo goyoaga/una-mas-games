@@ -6,6 +6,8 @@
 
 Un lugar para encontrar todos los minijuegos de **UNA MÁS GAMES** y volver a jugar cuando quieras.
 
+[![Abrir UNA MÁS GAMES](https://img.shields.io/badge/▶_ABRIR_UNA_MÁS_GAMES-111111?style=for-the-badge)](https://goyoaga.github.io/una-mas-games/)
+
 </div>
 
 ---
@@ -26,6 +28,10 @@ El catálogo está preparado para crecer sin convertirse en una lista interminab
 El hero utiliza **Three.js** para crear una escena 3D ligera alrededor de la identidad UNA MÁS GAMES. Los objetos flotantes representan juegos de la colección y el movimiento es ambiental: no necesitas cursor, hover ni controles especiales.
 
 Con la preferencia de movimiento reducido activada, la animación se minimiza.
+
+## 🚀 Abrir la landing
+
+**[https://goyoaga.github.io/una-mas-games/](https://goyoaga.github.io/una-mas-games/)**
 
 ## 🧰 Ejecutar en local
 
@@ -51,11 +57,7 @@ El proyecto está preparado para GitHub Pages con base:
 /una-mas-games/
 ```
 
-La URL prevista es:
-
-```text
-https://goyoaga.github.io/una-mas-games/
-```
+El despliegue se realiza mediante GitHub Actions.
 
 ## ☕ Apoya el proyecto
 
