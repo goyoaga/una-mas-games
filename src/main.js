@@ -27,6 +27,7 @@ function initHero(){
  const scene=new THREE.Scene(); const camera=new THREE.PerspectiveCamera(31,1,.1,100); camera.position.set(0,0,12.5);
  scene.add(new THREE.HemisphereLight(0xffffff,0x8c6949,2.7)); const key=new THREE.DirectionalLight(0xffffff,4); key.position.set(-4,6,8); scene.add(key); const rim=new THREE.DirectionalLight(0xffe6c7,2); rim.position.set(5,-2,5); scene.add(rim);
  const white=new THREE.MeshPhysicalMaterial({color:0xffffff,roughness:.28,clearcoat:.55,clearcoatRoughness:.2});
+ const logoBlack=new THREE.MeshPhysicalMaterial({color:0x171717,roughness:.38,clearcoat:.18,clearcoatRoughness:.35});
  const cream=new THREE.MeshPhysicalMaterial({color:0xf5eee4,roughness:.4,clearcoat:.2});
  const red=new THREE.MeshPhysicalMaterial({color:0xc85645,roughness:.32,clearcoat:.45});
  const blue=new THREE.MeshPhysicalMaterial({color:0x75aaf2,roughness:.18,clearcoat:.8});
@@ -36,12 +37,13 @@ function initHero(){
 
  const font=new FontLoader().parse(helvetiker);
  const title=new THREE.Group();
- const makeText=(text,size,depth,y)=>{
-  const g=new TextGeometry(text,{font,size,depth,curveSegments:10,bevelEnabled:true,bevelThickness:.035,bevelSize:.025,bevelSegments:3});
+ const makeText=(text,size,depth,y,scaleX=1)=>{
+  const g=new TextGeometry(text,{font,size,depth,curveSegments:14,bevelEnabled:true,bevelThickness:.045,bevelSize:.035,bevelSegments:4});
   g.computeBoundingBox(); const w=g.boundingBox.max.x-g.boundingBox.min.x; g.translate(-w/2,0,0);
-  const m=new THREE.Mesh(g,white); m.position.y=y; title.add(m);
+  const m=new THREE.Mesh(g,logoBlack); m.position.y=y; m.scale.x=scaleX; title.add(m);
  };
- makeText('UNA MAS',1.15,.18,-.05); makeText('GAMES',.28,.08,-.72); title.rotation.x=-.04; scene.add(title);
+ // Logo: minúsculas, ancho y redondeado para acercarse al lettering original de UNAMAS.
+ makeText('unamas',1.2,.16,-.05,1.08); makeText('GAMES',.27,.07,-.72,.92); title.rotation.x=-.04; scene.add(title);
 
  const apple=new THREE.Group();
  const ab=new THREE.Mesh(new THREE.SphereGeometry(.62,32,24),red); ab.scale.set(1,.9,.95); apple.add(ab);
