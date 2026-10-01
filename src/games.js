@@ -15,4 +15,12 @@ export const games = [
     icon: '✈️',
     accent: '#456b69',
   },
+  {
+    id: 'la-gota-exacta',
+    title: 'La Gota Exacta',
+    description: 'Una caída. El momento justo. Ni una gota más.',
+    url: 'https://goyoaga.github.io/la-gota-exacta/',
+    icon: '💧',
+    accent: '#75aaf2',
+  },
 ];
