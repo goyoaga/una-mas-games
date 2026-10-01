@@ -1,12 +1,12 @@
 <div align="center">
 
-# UNA MÁS GAMES
+# UNAMAS GAMES
 
-**Juegos pequeños. Retos rápidos. Una más.**
+**Juegos pequeños. Retos rápidos. UNAMAS.**
 
-Un lugar para encontrar todos los minijuegos de **UNA MÁS GAMES** y volver a jugar cuando quieras.
+Un lugar para encontrar todos los minijuegos de **UNAMAS GAMES** y volver a jugar cuando quieras.
 
-[![Abrir UNA MÁS GAMES](https://img.shields.io/badge/▶_ABRIR_UNA_MÁS_GAMES-111111?style=for-the-badge)](https://goyoaga.github.io/una-mas-games/)
+[![Abrir UNAMAS GAMES](https://img.shields.io/badge/▶_ABRIR_UNAMAS_GAMES-111111?style=for-the-badge)](https://goyoaga.github.io/una-mas-games/)
 
 </div>
 
@@ -25,7 +25,7 @@ El catálogo está preparado para crecer sin convertirse en una lista interminab
 
 ## ✨ La portada
 
-El hero utiliza **Three.js** para crear una escena 3D ligera alrededor de la identidad UNA MÁS GAMES. Los objetos flotantes representan juegos de la colección y el movimiento es ambiental: no necesitas cursor, hover ni controles especiales.
+El hero utiliza **Three.js** para crear una escena 3D ligera alrededor de la identidad UNAMAS GAMES. Los objetos flotantes representan juegos de la colección y el movimiento es ambiental: no necesitas cursor, hover ni controles especiales.
 
 Con la preferencia de movimiento reducido activada, la animación se minimiza.
 
