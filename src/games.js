@@ -31,4 +31,12 @@ export const games = [
     icon: '🗑️',
     accent: '#c47b55',
   },
+  {
+    id: 'el-amarre-perfecto',
+    title: 'El Amarre Perfecto',
+    description: 'Corta el motor. Después, solo mira.',
+    url: 'https://goyoaga.github.io/el-amarre-perfecto/',
+    icon: '⚓',
+    accent: '#326f70',
+  },
 ];
