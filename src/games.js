@@ -23,4 +23,12 @@ export const games = [
     icon: '💧',
     accent: '#75aaf2',
   },
+  {
+    id: 'el-tiro-de-papel',
+    title: 'El tiro de papel',
+    description: 'Una bola de papel. Una papelera. Un solo tiro.',
+    url: 'https://goyoaga.github.io/el-tiro-de-papel/',
+    icon: '🗑️',
+    accent: '#c47b55',
+  },
 ];
