@@ -6,7 +6,7 @@
 
 Un lugar para descubrir todos los minijuegos de **UNAMAS GAMES** y volver a jugar cuando quieras.
 
-[![JUGAR EN UNAMAS GAMES](https://img.shields.io/badge/▶_JUGAR_EN_UNAMAS_GAMES-111111?style=for-the-badge)](https://goyoaga.github.io/una-mas-games/)
+[![JUGAR EN UNAMAS GAMES](https://img.shields.io/badge/▶_JUGAR_EN_UNAMAS_GAMES-111111?style=for-the-badge)](https://goyoaga.github.io/unamas-games/)
 
 </div>
 
@@ -16,7 +16,7 @@ Un lugar para descubrir todos los minijuegos de **UNAMAS GAMES** y volver a juga
 
 Todos los juegos de **UNAMAS GAMES** están disponibles desde un único lugar:
 
-**https://goyoaga.github.io/una-mas-games/**
+**https://goyoaga.github.io/unamas-games/**
 
 Entra, elige un juego y prueba una vez más.
 
